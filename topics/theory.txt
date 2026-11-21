@@ -1,0 +1,41 @@
+# 4 types of data structure in python : 
+
+1. list : ordered , mutable allows duplicates 
+2. tuple  : ordered and Immutable 
+3. set : unordered , mutable , unique elements 
+4. Dictionary : unordered ( as of 3.6 + ordered ), key value mapping  
+
+
+reverse is also the concept ; 
+
+type error is a keyword ;  
+
+****************** python Dictionary **************** 
+
+
+1. it is unordered  and mutable 
+[ mutable mean we can change the value ]    
+
+2. key value mapping 
+Python dictionary mein key-value mapping ke points:
+
+3. Dictionary kya hai: Key-value pairs ka collection, curly braces {} mein
+4. Key: Unique hoti hai, immutable honi chahiye (string, number, tuple)
+5. Value: Kuch bhi ho sakti hai (number, string, list, dict, etc.), duplicate allowed
+6. Mapping: Har key ek specific value ko point karti hai, jaise label → data
+7. Ordered: Python 3.7+ mein insertion order maintain hota hai
+8. Mutable: Banne ke baad add, update ya delete kar sakte ho
+9. Fast lookup: Key se value turant mil jaati hai (hashing ki wajah se)
+10. Duplicate keys: Agar same key dobara daalo toh purani value overwrite ho jaati hai
+11. Access: Key se value milti hai; key na ho toh KeyError aata hai, .get() se safe access hota hai
+12. Common operations: add/update, delete, check key exists, keys/values/items nikalna, loop karna
+13. Use cases: Student → marks, product → price, word → meaning, config settings
+
+
+ 
+  ******************  ADD once a time and many time ****************************
+   
+   nums.add() this means we can add once a time 
+   nums.update () this is use to add many time 
+
+   
