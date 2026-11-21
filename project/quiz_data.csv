@@ -1,0 +1,61 @@
+id,question,option1,option2,option3,option4,answer,category,difficulty,marks
+1,Python ka creator kaun hai?,Linus Torvalds,Elon Musk,Guido van Rossum,Bill Gates,3,Python Basics,Easy,1
+2,Python file ka extension kya hota hai?,.java,.html,.cpp,.py,4,Python Basics,Easy,1
+3,print() function ka kaam kya hai?,File delete karna,Input lena,Loop chalana,Output dikhana,4,Python Basics,Easy,1
+4,Python mein comment kis symbol se likhte hain?,--,/*,//,#,4,Python Basics,Easy,1
+5,type(5) ka output kya hoga?,int,str,float,bool,1,Python Basics,,
+6,10 // 3 ka result kya hai?,4,1,3.33,3,4,Python Basics,Easy,1
+7,2 ** 3 ka result kya hai?,5,9,8,6,3,Python Basics,Easy,1
+8,input() function hamesha kya return karta hai?,list,int,string,float,3,Python Basics,Medium,2
+9,len('Python') ka output kya hai?,6,7,5,4,1,Python Basics,Easy,1
+10,Python case-sensitive language hai?,Nahi,Sirf functions mein,Sirf variables mein,Haan,4,Python Basics,Easy,1
+11,Python mein loop ke liye kaunsa keyword use hota hai?,cycle,repeat,for,loopit,3,Python Basics,Easy,1
+12,bool(0) ka output kya hoga?,Error,False,None,True,2,Python Basics,Medium,2
+13,List kis bracket se banti hai?,<>,{},(),[],4,Data Structures,Easy,1
+14,Tuple kis bracket se banta hai?,[],<>,(),{},3,Data Structures,Easy,1
+15,Dictionary (key:value) kis bracket se banti hai?,[],<>,{},(),3,Data Structures,Easy,1
+16,Inme se kaunsa immutable hai?,list,dict,tuple,set,3,Data Structures,Medium,2
+17,Set mein duplicate values ka kya hota hai?,Allowed hain,Error aata hai,Automatically hat jaati hain,Sirf numbers allowed,3,Data Structures,,
+18,List ke end mein element add karne ka method?,push(),append(),add(),insert_end(),2,Data Structures,Easy,1
+19,list.pop() kya karta hai?,List sort karta hai,Last element hata ke return karta hai,List clear karta hai,Pehla element dikhata hai,2,Data Structures,Medium,2
+20,Dictionary ke saare keys kaise milenge?,names(),getkeys(),allkeys(),keys(),4,Data Structures,Medium,2
+21,List ko sort karne ka method kaunsa hai?,order(),arrange(),sort(),sorted_list(),3,Data Structures,Easy,1
+22,"t = (1,2,3); t[0] = 5 likhne par kya hoga?",TypeError aayega,Value badal jayegi,Tuple list ban jayega,NameError aayega,1,Data Structures,Hard,3
+23,"len(set([1,1,2,2,3])) ka answer kya hai?",1,3,2,5,2,Data Structures,Medium,2
+24,dict.get('x') agar key 'x' nahi hai to kya milega?,0,KeyError,False,None,4,Data Structures,Hard,3
+25,Function define karne ka keyword kaunsa hai?,func,function,def,define,3,Functions & Modules,Easy,1
+26,Function se value wapas bhejne ka keyword?,output,return,send,give,2,Functions & Modules,Easy,1
+27,Module import karne ka keyword kaunsa hai?,include,import,require,using,2,Functions & Modules,Easy,1
+28,lambda kya hota hai?,Loop,Anonymous function,Class,Module,2,Functions & Modules,Medium,2
+29,*args ka use kya hai?,Class banane ke liye,Keyword arguments ke liye,Loop chalane ke liye,Variable number of positional arguments lene ke liye,4,Functions & Modules,Hard,3
+30,if __name__ == '__main__' kya check karta hai?,File delete ho rahi hai ya nahi,File direct run ho rahi hai ya nahi,Module import hua ya nahi,Error aaya ya nahi,2,Functions & Modules,Hard,3
+31,def f(x=5) mein f() call karne par x kya hoga?,0,5,None,Error,2,Functions & Modules,Medium,2
+32,pip ka use kisliye hota hai?,Python packages install karne ke liye,Debug karne ke liye,Code run karne ke liye,Compile karne ke liye,1,Functions & Modules,Easy,1
+33,math.sqrt(16) ka output kya hai?,Error,8,4.0,256,3,Functions & Modules,,
+34,random.shuffle() kya karta hai?,List sort karta hai,List reverse karta hai,List ko shuffle karta hai,List delete karta hai,3,Functions & Modules,Medium,2
+35,NumPy ka full form kya hai?,New Python,Number Pad,Numerical Python,Network Python,3,NumPy,Easy,1
+36,NumPy ko import karte waqt common alias kya hai?,nm,py,np,numpy,3,NumPy,Easy,1
+37,1D array banane ke liye kaunsa function hai?,"np.array([1,2,3])","np.make([1,2,3])","np.list([1,2,3])","np.new([1,2,3])",1,NumPy,Easy,1
+38,arr.shape kya batata hai?,Mean,Sum,Data type,Array ki dimensions/size,4,NumPy,Medium,2
+39,np.mean() kya nikalta hai?,Average,Sum,Maximum,Minimum,1,NumPy,Easy,1
+40,np.std() kya calculate karta hai?,Standard deviation,Median,Mode,Sum,1,NumPy,Medium,2
+41,arr[1:3] kaunse elements dega?,Index 1 aur 2,Index 0 se 3,"Index 1, 2 aur 3",Sirf index 3,1,NumPy,Medium,2
+42,2D array ke element ko access karne ka tarika?,"arr<0,1>","arr{0,1}","arr[0,1]","arr(0,1)",3,NumPy,Medium,2
+43,"np.zeros((2,3)) ki shape kya hogi?","(2,)","(6,)","(3,2)","(2,3)",4,NumPy,Medium,2
+44,"np.arange(0,5) kya dega?",[1 2 3 4 5],[1 2 3 4],[0 1 2 3 4],[0 1 2 3 4 5],3,NumPy,Medium,2
+45,np.max() kya return karta hai?,Maximum value,Mean,Sum,Minimum value,1,NumPy,Easy,1
+46,List aur NumPy array mein kaun fast hota hai?,Dono same,NumPy array,Tuple,List,2,NumPy,Medium,2
+47,Pandas ka main 2D data structure kaunsa hai?,DataFrame,Tuple,Stack,Set,1,Pandas,Easy,1
+48,CSV file read karne ka function kaunsa hai?,pd.csv(),pd.read_csv(),pd.load(),pd.open_csv(),2,Pandas,Easy,1
+49,df.head() kya dikhata hai?,Pehli 5 rows,Aakhri 5 rows,Columns,Shape,1,Pandas,Easy,1
+50,df.tail() kya dikhata hai?,Pehli 5 rows,Columns,Aakhri 5 rows,Info,3,Pandas,Easy,1
+51,Missing values count karne ka tarika?,df.empty(),df.nan(),df.missing(),df.isnull().sum(),4,Pandas,Medium,2
+52,Missing values bharne ka method kaunsa hai?,fill(),replace_na(),addna(),fillna(),4,Pandas,,
+53,DataFrame ko sort karne ka method?,sort(),sort_values(),arrange(),order(),2,Pandas,Medium,2
+54,Pandas mein group karke calculation ka method?,cluster(),combine(),group(),groupby(),4,Pandas,Medium,2
+55,df.describe() kya deta hai?,Rows delete karta hai,Sort karta hai,Plot banata hai,Statistical summary,4,Pandas,Medium,2
+56,DataFrame se row/column hatane ka method?,df.delete(),df.cut(),df.remove(),df.drop(),4,Pandas,Medium,2
+57,df.loc kis par based selection karta hai?,Sirf sorting,Sirf loop,Sirf merge,Labels (naam),4,Pandas,Hard,3
+58,df.iloc kis par based selection karta hai?,Integer position,Deleting,Sorting,Labels,1,Pandas,Hard,3
+59,Excel file read karne ka function kaunsa hai?,pd.read_excel(),pd.excel(),pd.xls(),pd.open_xls(),1,Pandas,Easy,1
+60,df.shape kya return karta hai?,Sum,Mean,"(rows, columns)",Data type,3,Pandas,Easy,1
